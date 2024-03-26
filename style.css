@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(224, 224, 224, 0.952);
+    color:  hsl(0, 13%, 95%);
+}
+#head{
+    font-size: 18px;
+}
+#name{
+    font-size: 15px;
+    font-weight: 600;
+}
+p{
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: lighter;
+    color:  hsla(0, 0%, 100%, 0.377);
+}
+#black{
+    color: rgba(0, 0, 0, 0.425);
+}
+#bg{
+    border-radius: 0%;
+    border: none;
+    height: 50px ;
+    width: 50px ;
+    padding-right: 0%;
+}
+img{
+    border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+}
+.profile{
+    display: flex;
+    margin-bottom: 5px;
+}
+#name-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.major{
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.main{
+    margin-right: 10px;
+    padding-bottom: 0%;
+    width: 62%;
+}
+.article{
+    display: flex;
+    flex-flow: row, nowrap;
+    margin-bottom: 15px;
+}
+.section{
+    display: flex;
+    flex-flow: row-reverse, nowrap;
+}
+.Daniel{
+    background-color:hsl(263, 55%, 52%);
+    margin-right: 15px;  
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 350px 0px ;
+}
+.Clifford{
+    display: flex;
+    flex-direction: row;
+
+}
+.Walters{
+    background-color:hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.Harmon{
+    background-color: hsl(0, 0%, 100%);
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+}
+.Abrams{
+    background-color:hsl(219, 29%, 14%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.Aside{
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width: 20%;
+    border-radius: 10px;
+    color: black;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+    padding-bottom: 25px; 
+}
